@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current URL</title>
+</head>
+
+<body>
+
+    <script>
+        // FILE NAME
+        var pathname = window.location.pathname;
+        // document.write(pathname);
+        document.write(pathname + "<br/>");
+
+        // /index.html
+
+        // FULL URL
+        var url = window.location.href;
+        // document.write(url);
+        document.write(url + "<br/>");
+
+        // http://127.0.0.1:5500/index.html
+
+        // ORIGIN
+        var origin = window.location.origin;
+        document.write(origin)
+
+        // http://127.0.0.1:5500
+    </script>
+
+</body>
+
+</html>
